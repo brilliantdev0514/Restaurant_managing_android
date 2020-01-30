@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/resBtn"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Please Select Restaurant."
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/resBtna"
+        android:id="@+id/resBtn"
+        android:background="#6FEBFB"
+        android:text="Restaurant1 (BWUI)"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/resBtna"
+        android:background="#6FEBFB"
+        android:text="Restaurant2 (BWPI)"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/resBtna"
+        android:id="@+id/resBtnb"
+        android:background="#6FEBFB"
+        android:text="Restaurant3 (BWMGI)"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/aaaaaa"
+        android:layout_below="@+id/resBtnb"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="3"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

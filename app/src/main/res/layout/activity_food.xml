@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:background="@drawable/gradient"
+    >
+
+    <ImageView
+        android:src="@drawable/icon_food"
+        android:id="@+id/img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/rel_text"
+        android:layout_marginBottom="20dp"/>
+    <RelativeLayout
+        android:id="@+id/rel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Manager"
+            android:textStyle="italic"
+            android:fontFamily="cursive"
+            android:textSize="46sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#25D366"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Copyright @ 2020 Delicious Food"
+        android:textColor="#FDCD47"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>

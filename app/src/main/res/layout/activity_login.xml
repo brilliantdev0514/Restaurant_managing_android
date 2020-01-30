@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"
+        android:id="@+id/textview_login"
+        android:text="Log In"
+        android:fontFamily="sans-serif-black"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textColor="#FB8342"
+        android:layout_above="@id/rel_edit"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel_edit"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+            <EditText android:id="@+id/input_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_password_login"
+                android:layout_below="@+id/input_email_login"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:hint="password"
+                />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_password_login"
+            android:layout_marginTop="30dp"
+            android:padding="12dp"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="#6FEBFB"/>
+        <!-- reset Button -->
+
+
+        <ProgressBar
+        android:id="@+id/progressBar_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/rel_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rel_edit"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview"
+            android:text="No account yet?"
+            android:textSize="16sp"
+            android:textColor="#0366D6"
+            android:textAllCaps="false"
+            android:layout_marginTop="13dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_one"
+            android:text="Create One!"
+            android:background="#00000000"
+            android:textStyle="bold"
+            android:textColor="#FC834B"
+            android:layout_toRightOf="@+id/textview"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/latTextViewl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_signin"
+        android:text="Latitude: "
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/lonTextViewl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latTextViewl"
+        android:text="Longitude: "
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/timeTextViewl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lonTextViewl"
+        android:text="Time: "
+        android:visibility="invisible"
+        />
+</RelativeLayout>

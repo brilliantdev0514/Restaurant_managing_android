@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/location"
+            android:title="@string/menu_location" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/users"
+            android:title="@string/menu_users" />
+    </group>
+
+    <item android:title="Management">
+        <menu>
+            <item
+                android:id="@+id/nav_inventory"
+                android:icon="@drawable/item"
+                android:title="@string/menu_inventory" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/menu_logout"
+
+        />
+
+
+</menu>

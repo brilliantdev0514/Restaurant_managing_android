@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "685073963316",
+    "firebase_url": "https://myfoodp-44069.firebaseio.com",
+    "project_id": "myfoodp-44069",
+    "storage_bucket": "myfoodp-44069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685073963316:android:8f2f18c8d3af8fe833ed61",
+        "android_client_info": {
+          "package_name": "com.com.frestau.restaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685073963316-sm75c845fo02a0sgkagn2q47aphca4ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_cKmbkn58XAMy04q5jLLxZ2Cr1Sseiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685073963316-sm75c845fo02a0sgkagn2q47aphca4ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685073963316:android:3ad9e75367a5d71e33ed61",
+        "android_client_info": {
+          "package_name": "com.frestau.restaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685073963316-b41p9cdtnsldh1u3bp1o6n9fqkg7clnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frestau.restaurants",
+            "certificate_hash": "c15b864013bd10f3f3ec3506186671f97b2f468a"
+          }
+        },
+        {
+          "client_id": "685073963316-unlc50jvte57b2hsbm06ou4q57hcsskb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frestau.restaurants",
+            "certificate_hash": "6c9fc1da8114a03ca2ac6c134c0bd8d885b61542"
+          }
+        },
+        {
+          "client_id": "685073963316-sm75c845fo02a0sgkagn2q47aphca4ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_cKmbkn58XAMy04q5jLLxZ2Cr1Sseiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685073963316-sm75c845fo02a0sgkagn2q47aphca4ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

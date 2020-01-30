@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#623AF0</color>
+    <color name="colorPrimaryDark">#053E9B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#fff</color>
+
+
+    <color name="colorGray">#BBBBBB</color>
+    <color name="colorFacebookOrigin">#3b5998</color>
+    <color name="colorTwitterOrigin">#00acee</color>
+    <color name="colorOnline">#3A98E4</color>
+    <color name="colorBlack">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorGrey1">#808080</color>
+    <color name="colorGrey2">#E0E0E0</color>
+    <color name="colorWhite1">#88D8D8D8</color>
+    <color name="colorBlue">#06B5FA</color>
+    <color name="colorText">#0B33FF</color>
+</resources>

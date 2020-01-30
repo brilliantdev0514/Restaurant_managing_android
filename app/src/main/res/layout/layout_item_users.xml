@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imvuserPhoto"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:src="@drawable/avatar"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#1DF305"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txvuserfName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="25dp"
+            android:text="first name"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/txvuserlName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txvuserfName"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:text="last name"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/resnumberB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txvuserlName"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/txvuserEmailT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserfName"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_marginLeft="10dp"
+            android:text="email:"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/txvuserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserfName"
+            android:layout_toRightOf="@+id/txvuserEmailT"
+            android:layout_marginLeft="35dp"
+            android:text="User email"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txvuserPhoneT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserEmail"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_marginLeft="10dp"
+            android:text="Phone:"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/txvuserPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserEmail"
+            android:layout_toRightOf="@+id/txvuserPhoneT"
+            android:layout_marginLeft="29dp"
+            android:text="User Phone number"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txvuserlatitudeT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserPhone"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_marginLeft="10dp"
+            android:text="Location:"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/txvuserlatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txvuserPhone"
+            android:layout_toRightOf="@+id/txvuserlatitudeT"
+            android:layout_marginLeft="13dp"
+            android:text="latitude"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txvuserlongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txvuserlatitude"
+            android:layout_below="@+id/txvuserPhone"
+            android:layout_marginLeft="10dp"
+            android:text="longitude"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txvuserlogintimeT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_below="@+id/txvuserlatitude"
+            android:layout_marginLeft="10dp"
+            android:text="Time :"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/txvuserlogintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txvuserlogintimeT"
+            android:layout_below="@+id/txvuserlatitude"
+            android:layout_marginLeft="34dp"
+            android:text="logged in time"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/resnumbertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imvuserPhoto"
+            android:layout_below="@+id/txvuserlogintime"
+            android:layout_marginLeft="10dp"
+            android:text="Own State :"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+        <TextView
+            android:id="@+id/resnumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/resnumbertitle"
+            android:layout_below="@+id/txvuserlogintime"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/resnumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/resnumber1"
+            android:layout_below="@+id/txvuserlogintime"
+            android:layout_marginLeft="10dp"
+            android:text="2"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/resnumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/resnumber2"
+            android:layout_below="@+id/txvuserlogintime"
+            android:layout_marginLeft="10dp"
+            android:text="3"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey2"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="13dp"/>
+</LinearLayout>
+
